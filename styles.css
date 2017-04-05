@@ -1,0 +1,54 @@
+p {
+    color: black;
+    font-weight: 500;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  letter-spacing:0.15em;
+}
+
+.wrapper{
+  position: relative;
+  width:100%;
+  height: 100%;
+  display:block;
+  margin-bottom: 75px;
+}
+
+.text-for-pics:hover {
+    opacity: 1;
+    z-index: 1;
+}
+
+.text-for-pics {
+  font-family: Arial;
+  font-weight: bold;
+  letter-spacing: 0;
+  font-size: 1.2em;
+  position: absolute;
+  color:white;
+  overflow: hidden;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  top: 0;
+  background-color:rgba(255,255,255,0.8);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding-top: 40%;
+  z-index: 10;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  max-width: 555px;
+}
+.vid-align{
+  width: 100%;
+  text-align: center;
+}
+.vid-embed{
+  /*padding-left: 10%;
+  padding-right: 10%;*/
+}
